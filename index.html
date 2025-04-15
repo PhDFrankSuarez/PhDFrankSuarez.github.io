@@ -19,6 +19,16 @@
       display: block;
       margin: 5px;
     }
+    .pdf-container {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+    }
+    iframe {
+      width: 80%;
+      height: 600px;
+      border: none;
+    }
   </style>
 </head>
 <body>
@@ -32,7 +42,12 @@
     <a href="https://www.linkedin.com/in/frank-didier-suárez-motato-9494711b4" target="_blank">LinkedIn</a>
     <a href="https://www.tiktok.com/@frank.ensena?_t=ZS-8vYd6TM79I0&_r=1" target="_blank">TikTok</a>
     <a href="https://wa.me/573192198356" target="_blank">WhatsApp directo</a>
-    <a href="flyer de presentación.pdf" download target="_blank">Descargar presentación</a>
+    <!-- <a href="flyer de presentación.pdf" download target="_blank">Descargar presentación</a> -->
+    <a href="#presentacion">Ver presentación</a>
+  </div>
+
+  <div id="presentacion" class="pdf-container">
+    <iframe src="flyer de presentación.pdf"></iframe>
   </div>
 </body>
 </html>
